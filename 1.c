@@ -5,8 +5,8 @@ printf("enter the size of the array:\n");
 scanf("%d",&n);
 int arr[n];
 printf("enter the elements of the size:\n");
-for(int i=0;i<n;i++){
-    scanf("%d",&arr[i]);
+for(int j=0;j<n;j++){
+    scanf("%d",&arr[j]);
 }
 int count[n];int j=0;
 for(int i=1;i<n-1;i++){
